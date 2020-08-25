@@ -50,3 +50,16 @@ p {
   text-color: $text-ptag-color;  
 }
 ```
+
+-------------
+What are Partials?
+
+The partials in the SCSS files are the files where the variables that are being declared and these are not compiled to the CSS 
+
+The file name of the partial would start with "_"
+and the partial can be imported to the main file by using the 
+```
+@import "./partial";
+
+```
+The above command would import an scss file by the name _partial.scss into the style.scss 

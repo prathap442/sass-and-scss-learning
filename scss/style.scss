@@ -1,16 +1,8 @@
-// text colors
-$ptag-color: blue;
-$body-bg-color: white;
-
+@import "./partial1";
 //the normal css tags and their colors
 p {
   background-color: $ptag-color;   
 }
-
-//sizes of the elements
-$header-height: 90px;
-$footer-height: 90px;
-$body-width: 960px;
 
 
 body {
