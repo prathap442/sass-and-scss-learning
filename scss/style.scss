@@ -1,4 +1,15 @@
 @import "./partial1";
+
+@mixin warning {
+  border: 1px solid black;
+  padding: 1px 1px 0px 0px;  
+}
+
+button {
+  @include warning;
+}
+
+
 //the normal css tags and their colors
 p {
   background-color: $ptag-color;   
@@ -9,3 +20,4 @@ body {
   background-color: $body-bg-color;
   width: $body-width;
 }
+

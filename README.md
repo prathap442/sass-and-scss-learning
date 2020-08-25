@@ -63,3 +63,37 @@ and the partial can be imported to the main file by using the
 
 ```
 The above command would import an scss file by the name _partial.scss into the style.scss 
+
+
+What are the Mixins in SCSS?
+   The Mixins are the slots for providing the reusable pieces of the code and this reusable pieces can be reutilised at the places of the requirement .
+
+```
+  @mixin warning {
+    border: 1px solid black;  
+  }
+
+  /* the below line would generate the color of the button to have the text-color to be white and then the css stylings of the border 1px and the solid black since the include  is being done by defiing the mixin above 
+  */
+  button {
+    @include warning
+    text-color: white;
+  }
+```
+
+
+We can reutilise a mixin into another one by using the following mixin
+
+
+
+
+@mixin warning {
+  "border": 1px solid black;
+}
+
+@mixin danger {
+  @include warning;
+  "text-color": white;  
+}
+
+We can reutilise one mixin inside another mixin by using the following things.
