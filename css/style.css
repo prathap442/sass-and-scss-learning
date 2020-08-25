@@ -1,4 +1,9 @@
 p {
-  background-color: black;
+  background-color: blue;
+}
+
+body {
+  background-color: white;
+  width: 960px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,19 @@
+// text colors
+$ptag-color: blue;
+$body-bg-color: white;
+
+//the normal css tags and their colors
 p {
-  background-color: black;   
+  background-color: $ptag-color;   
+}
+
+//sizes of the elements
+$header-height: 90px;
+$footer-height: 90px;
+$body-width: 960px;
+
+
+body {
+  background-color: $body-bg-color;
+  width: $body-width;
 }
